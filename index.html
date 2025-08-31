@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>My Taco Shop</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -14,8 +14,7 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/html5-logo.png" type="image/png">
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
@@ -25,7 +24,7 @@
 <body>
 
 <header>
-  <h1> Welcome to The Little Taco Shop</h1>
+  <h1 id="top"> Welcome to The Little Taco Shop</h1>
   <nav>
     <ul>
       <li>
@@ -57,9 +56,76 @@
       Our shop was built from a <strong>love of tacos</strong>.
       we hope our shop adds a unique and interesting taco experience to your life.
     </p>
+    <aside>
+      <h3>Taco Trivia</h3>
+      <details>
+        <summary>when did the tacos first appear in the United states?</summary>
+        <p>
+          The earliest known mention of tacos in the U.S. press appeared in a newspaper around 1905, describing them as a street food eaten by Mexican workers.
 
+          They spread quickly in Southwestern states like Texas, New Mexico, Arizona, and California, where Mexican communities were already established.
+
+          By the 1920s and 1930s, tacos started appearing in U.S. cookbooks and restaurants.
+
+          In 1962, Glen Bell (founder of Taco Bell) helped popularize the hard-shell taco nationwide by adapting it for fast food service.
+        </p>
+      </details>
+    </aside>
+  </article>
+  <hr>
+  <article id="menu">
+    <h2>Our Menu</h2>
+    <table border="1px solid black">
+      <caption>Our Tacos</caption>
+      <thead>
+      <tr>
+        <th>Tacos</th>
+        <th>Qty</th>
+        <th>Price</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th rowspan="3">Crunchy</th>
+        <td>1</td>
+        <td>$10.00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>$15.00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>$3.25</td>
+      </tr>
+      <tr>
+        <th rowspan="3">Soft</th>
+        <td>1</td>
+        <td>$2.00</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>$4.50</td>
+      </tr>
+      </tbody>
+      <tfoot>
+      <tr>
+      <td colspan="3"> Chips $ salsa $2</td>
+      </tr>
+      </tfoot>
+    </table>
+    <br>
+    <p><a href="#top">Back to Top</a></p>
   </article>
 </main>
+<hr>
+<footer>
+  <p>Copyright &copy; The Little Taco Shop</p>
+</footer>
 
 </body>
 

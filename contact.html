@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Tacos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="images/html5-logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+<header>
+  <h1>Contact Us</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html/#about">About Taco</a></li>
+      <li><a href="index.html/#menu">Menu</a></li>
+      <li><a href="hours.html/#store-hours">Store Hours</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section>
+  <h2>Our Contact Form</h2>
+  <form action="https://httpbin.org/post" method="post" style="border: 1px solid black">
+    <fieldset>
+      <legend>Contact Us</legend>
+      <p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </p>
+    </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  </section>
+  <section>
+    <h3>Our Address</h3>
+    <address>
+      1234 Taco Lane<br>
+    </address>
+  </section>
+</main>
+</body>
+</html>
